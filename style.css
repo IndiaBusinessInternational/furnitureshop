@@ -228,6 +228,18 @@ body {
   background: var(--black);
   color: var(--goldenrod);
 }
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: var(--black);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--black);
+}
+.btn-black:hover {
+  background: var(--black);
+  color: var(--white);
+}
 .banner-products,
 .banner-single-product,
 .banner-store {
@@ -459,5 +471,48 @@ body {
 }
 .products-categories-link:hover {
   color: var(--lightgrey);
-
 }
+.products-color {
+  width: 1rem;
+  height: 1rem;
+}
+.products-color-black {
+  background: black;
+}
+.products-color-red {
+  background: red;
+}
+.products-color-blue {
+  background: blue;
+}
+.products-color-yellow {
+  background: yellow;
+}
+.products-color-green {
+  background: green;
+}
+/* ###### end of products ##### */
+/* single product */
+.single-product-photo {
+  background: var(--silver);
+  opacity: 0.5;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 0.1rem solid transparent;
+  box-sizing: border-box!important;
+}
+.single-product-photo:hover {
+  border: 0.1rem solid var(--goldenrod);
+  opacity: 1;
+}
+.rating-icon {
+  color: var(--goldenrod);
+}
+.product-info-link {
+  color: var(--lightgrey);
+  text-decoration: none !important;
+}
+.product-info-link:hover {
+  color: var(--goldenrod);
+}
+/* end of single product */
